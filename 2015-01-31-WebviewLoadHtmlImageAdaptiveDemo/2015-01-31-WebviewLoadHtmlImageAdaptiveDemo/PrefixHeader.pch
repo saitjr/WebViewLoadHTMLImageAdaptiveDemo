@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  2015-01-31-WebviewLoadHtmlImageAdaptiveDemo
+//
+//  Created by TangJR on 15/1/31.
+//  Copyright (c) 2015年 tangjr. All rights reserved.
+//
+
+#ifndef _015_01_31_WebviewLoadHtmlImageAdaptiveDemo_PrefixHeader_pch
+#define _015_01_31_WebviewLoadHtmlImageAdaptiveDemo_PrefixHeader_pch
+
+#define HTML_NO_HEAD @"<img src='http://image.woshipm.com/wp-files/2015/01/3bfef6f94d663c2c8d26f8eb5dc3229a.jpg' /><br/><img src='http://devgirl.org/wp-content/uploads/2014/11/ios8.jpeg' /><br/>"
+#define HTML_HAD_HEAD @"<head></head><body><img src='http://image.woshipm.com/wp-files/2015/01/3bfef6f94d663c2c8d26f8eb5dc3229a.jpg' /><br/><img src='http://devgirl.org/wp-content/uploads/2014/11/ios8.jpeg' /><br/></body>"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
